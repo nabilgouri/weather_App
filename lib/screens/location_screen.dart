@@ -1,12 +1,36 @@
+import 'package:clima/screens/city_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:clima/utilities/constants.dart';
+import 'dart:convert';
 
 class LocationScreen extends StatefulWidget {
+  final function;
+
+  LocationScreen(this.function);
+
   @override
   _LocationScreenState createState() => _LocationScreenState();
 }
 
 class _LocationScreenState extends State<LocationScreen> {
+  var cityName;
+  var weather_main;
+  var id;
+  var tempeture;
+  @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    getPassedData(widget.function);
+  }
+
+  void getPassedData(dynamic weatherData) {
+    cityName = weatherData['name'];
+    weather_main = weatherData['weather'][0]['main'];
+    id = weatherData['weather'][0]['id'];
+    tempeture = weatherData['main']['temp'].round();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -36,7 +60,14 @@ class _LocationScreenState extends State<LocationScreen> {
                     ),
                   ),
                   FlatButton(
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) {
+                          return CityScreen();
+                        }),
+                      );
+                    },
                     child: Icon(
                       Icons.location_city,
                       size: 50.0,
@@ -49,7 +80,7 @@ class _LocationScreenState extends State<LocationScreen> {
                 child: Row(
                   children: <Widget>[
                     Text(
-                      '32°',
+                      '$tempeture°',
                       style: kTempTextStyle,
                     ),
                     Text(
@@ -62,7 +93,7 @@ class _LocationScreenState extends State<LocationScreen> {
               Padding(
                 padding: EdgeInsets.only(right: 15.0),
                 child: Text(
-                  "It's 🍦 time in San Francisco!",
+                  "It's 🍦 time in $cityName",
                   textAlign: TextAlign.right,
                   style: kMessageTextStyle,
                 ),
@@ -74,3 +105,8 @@ class _LocationScreenState extends State<LocationScreen> {
     );
   }
 }
+
+// var cityNme = jsonDecode(data)['name'];
+// var weather_main = jsonDecode(data)['weather'][0]['main'];
+// var id = jsonDecode(data)['weather'][0]['id'];
+// var tempeture = jsonDecode(data)['main']['temp'];

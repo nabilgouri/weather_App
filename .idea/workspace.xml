@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce3e78bd-f4a9-4fc0-a9a0-607ef64af233" name="Default Changelist" comment="" />
+    <list default="true" id="ce3e78bd-f4a9-4fc0-a9a0-607ef64af233" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/city_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/city_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/loading_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/loading_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/location_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/location_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/location.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/location.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/networking.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/networking.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utilities/constants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utilities/constants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1628846955674</updated>
       <workItem from="1628846960347" duration="3916000" />
-      <workItem from="1628888340625" duration="3059000" />
+      <workItem from="1628888340625" duration="17238000" />
     </task>
     <task id="LOCAL-00001" summary="added the geo-locator package and orginazed the structure of the project">
       <created>1628891748752</created>
@@ -78,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1628891823298</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added the geo-locator package and orginazed the structure of the project">
+      <created>1628891872003</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1628891872003</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,30 +111,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="added the geo-locator package and orginazed the structure of the project" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1628891850671">
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser" timestamp="1628903498985">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1628891850671" />
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1628891859156">
+    <state x="446" y="77" key="#com.intellij.ide.util.MemberChooser/0.0.1280.720@0.0.1280.720" timestamp="1628903498985" />
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1628891871185">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1628891859156" />
-    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1628891859156">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.720@0.0.1280.720" timestamp="1628891871185" />
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom" timestamp="1628908550603">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1628891859156" />
-    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1628891859155">
+    <state width="1237" height="176" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1628908550603" />
+    <state width="1237" height="176" key="GridCell.Tab.0.center" timestamp="1628908550603">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1628891859155" />
-    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1628891859156">
+    <state width="1237" height="176" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1628908550603" />
+    <state width="1237" height="176" key="GridCell.Tab.0.left" timestamp="1628908550603">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1628891859156" />
-    <state x="233" y="83" key="Vcs.Push.Dialog.v2" timestamp="1628891825756">
+    <state width="1237" height="176" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1628908550603" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right" timestamp="1628908550603">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state x="233" y="83" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1628891825756" />
+    <state width="1237" height="176" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1628908550603" />
+    <state x="121" y="60" key="MergeDialog" timestamp="1628891907159">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="121" y="60" key="MergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1628891907159" />
+    <state x="354" y="77" key="MultipleFileMergeDialog" timestamp="1628891907182">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="354" y="77" key="MultipleFileMergeDialog/0.0.1280.720@0.0.1280.720" timestamp="1628891907182" />
+    <state x="233" y="83" key="Vcs.Push.Dialog.v2" timestamp="1628891875804">
+      <screen x="0" y="0" width="1280" height="720" />
+    </state>
+    <state x="233" y="83" key="Vcs.Push.Dialog.v2/0.0.1280.720@0.0.1280.720" timestamp="1628891875804" />
     <state x="93" y="93" width="1095" height="535" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1628888381012">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
